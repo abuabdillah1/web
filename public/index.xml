@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Abu Abdillah</title>
+    <link>http://example.org/</link>
+    <description>Recent content on Abu Abdillah</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 14 Mar 2022 09:22:34 +0000</lastBuildDate><atom:link href="http://example.org/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Selamat Datang</title>
+      <link>http://example.org/post/selamat-datang/</link>
+      <pubDate>Mon, 14 Mar 2022 09:22:34 +0000</pubDate>
+      
+      <guid>http://example.org/post/selamat-datang/</guid>
+      <description>Selamat datang di Abu Abdillah, web yang berisi ringkasan kajian</description>
+    </item>
+    
+  </channel>
+</rss>
