@@ -1,65 +1,43 @@
-baseURL = 'https://abuabdillah1.github.io/web/'
-languageCode = 'en-us'
-title = 'Abu Abdillah'
-theme = 'mainroad'
-paginate = "10"
+baseURL = "https://abuabdillah1.github.io/web/"
 disqusShortname = ""
-
-
+languageCode = "en-us"
+paginate = "10"
+theme = "mainroad"
+title = "Abu Abdillah"
 [Author]
-  name = "Abu Abdillah"
-  bio = 'Web Abu Abdillah'
-  avatar = "img/avatar.png"
-
-
+avatar = "img/avatar.png"
+bio = "Web Abu Abdillah"
+name = "Abu Abdillah"
 [Params]
-  description = "Web Abu Abdillah"
-  copyright = "Abu Abdillah"
-  readmore = true
-  authorbox = true
-  toc = true # Enable Table of Contents
-  googleFontsLink = "https://fonts.googleapis.com/css?family=Open+Sans:400,400i,700" # Load Google Fonts
-  customCSS = ["css/custom.css"] # Include custom CSS files
-  customJS = ["js/custom.js"] # Include custom JS files
-
-
-[Params.style.vars]
-  highlightColor = "#e22d30" # Override highlight color
-
-
-  # Override font-family sets
-  # Take care of different quotes OR escaping symbols in these params if necessary
-  fontFamilyPrimary = "'Open Sans', Helvetica, Arial, sans-serif"
-  # Secondary font-family set responsible for pre, code, kbd, and samp tags font
-  fontFamilySecondary = "SFMono-Regular, Menlo, Monaco, Consolas, 'Liberation Mono', 'Courier New', monospace"
-
-
+authorbox = true
+copyright = "Abu Abdillah"
+customCSS = ["css/custom.css"]
+customJS = ["js/custom.js"]
+description = "Web Abu Abdillah"
+googleFontsLink = "https://fonts.googleapis.com/css?family=Open+Sans:400,400i,700"
+readmore = true
+toc = true
 [Params.logo]
-  image = "img/placeholder.png"
-  title = "Abu Abdillah"
-  subtitle = "Mulia Mengikuti Manhaj Salaf"
-
-[Params.thumbnail]
-  visibility = ["list", "post"] # Control thumbnail visibility
-
+image = "img/placeholder.png"
+subtitle = "Mulia Mengikuti Manhaj Salaf"
+title = "Abu Abdillah"
 [Params.sidebar]
-  home = "right" # Configure layout for home page
-  list = "left"  # Configure layout for list pages
-  single = false # Configure layout for single pages
-  # Enable widgets in given order
-  widgets = ["search", "recent", "categories", "taglist", "social", "languages"]
-  # alternatively "ddg-search" can be used, to search via DuckDuckGo
-  # widgets = ["ddg-search", "recent", "categories", "taglist", "social", "languages"]
-
+home = "right"
+list = "left"
+single = false
+widgets = ["search", "recent", "categories", "taglist", "social", "languages"]
+[Params.style.vars]
+fontFamilyPrimary = "'Open Sans', Helvetica, Arial, sans-serif"
+fontFamilySecondary = "SFMono-Regular, Menlo, Monaco, Consolas, 'Liberation Mono', 'Courier New', monospace"
+highlightColor = "#e22d30"
+[Params.thumbnail]
+visibility = ["list", "post"]
 [Params.widgets]
-  recent_num = 5 # Set the number of articles in the "Recent articles" widget
-  categories_counter = false # Enable counter for each category in "Categories" widget
-  tags_counter = false # Enable counter for each tag in "Tags" widget
-
-
+categories_counter = false
+recent_num = 5
+tags_counter = false
 [Params.widgets.social]
-  instagram = "username"
-  telegram = "ahadmyid"
-  github = "abuabdillah1"
-  email = "abuabdillah408@gmail.com"
-
+email = "abuabdillah408@gmail.com"
+github = "abuabdillah1"
+instagram = "username"
+telegram = "ahadmyid"
