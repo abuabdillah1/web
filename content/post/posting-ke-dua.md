@@ -1,6 +1,5 @@
 +++
 date = 2022-03-15T17:00:00Z
-draft = true
 title = "Posting Ke Dua"
 
 +++
